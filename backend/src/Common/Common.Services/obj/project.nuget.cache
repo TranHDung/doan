@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QcjpzzWnQQwl6Bg8ANZAzwL1wiKSTxzTtKmPxeS3R7eiaV65jaAIoUMkRuXbyth2As3/oLMb75M143uCFVAKnw==",
+  "dgSpecHash": "giev6rnXaYAxn98tRd/RPOsnP++bpRH0s0MHfwCxS3ZtiLO+Nxz2jd7oVJQ62Ffn9oDTAYoc1xKF923yNMIiyQ==",
   "success": true,
-  "projectFilePath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Services\\Common.Services.csproj",
+  "projectFilePath": "E:\\doan\\backend\\src\\Common\\Common.Services\\Common.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\htmlagilitypack\\1.11.23\\htmlagilitypack.1.11.23.nupkg.sha512",

@@ -3948,11 +3948,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Services\\Common.Services.csproj",
+      "projectUniqueName": "E:\\doan\\backend\\src\\Common\\Common.Services\\Common.Services.csproj",
       "projectName": "Common.Services",
-      "projectPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Services\\Common.Services.csproj",
+      "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Services\\Common.Services.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Services\\obj\\",
+      "outputPath": "E:\\doan\\backend\\src\\Common\\Common.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3968,11 +3968,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
-              "projectPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
+            "E:\\doan\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
+              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
             },
-            "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {
-              "projectPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj"
+            "E:\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {
+              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj"
             }
           }
         }

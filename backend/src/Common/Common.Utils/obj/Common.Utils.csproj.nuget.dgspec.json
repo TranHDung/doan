@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {}
+    "E:\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {}
   },
   "projects": {
-    "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
+    "E:\\doan\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj",
+        "projectUniqueName": "E:\\doan\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj",
         "projectName": "Common.Entities",
-        "projectPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj",
+        "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Entities\\obj\\",
+        "outputPath": "E:\\doan\\backend\\src\\Common\\Common.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,14 +63,14 @@
         }
       }
     },
-    "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {
+    "E:\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj",
+        "projectUniqueName": "E:\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj",
         "projectName": "Common.Utils",
-        "projectPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj",
+        "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Utils\\obj\\",
+        "outputPath": "E:\\doan\\backend\\src\\Common\\Common.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,8 +86,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
-                "projectPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
+              "E:\\doan\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
+                "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
               }
             }
           }

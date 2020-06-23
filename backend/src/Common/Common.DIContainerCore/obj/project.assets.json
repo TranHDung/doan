@@ -6390,11 +6390,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.DIContainerCore\\Common.DIContainerCore.csproj",
+      "projectUniqueName": "E:\\doan\\backend\\src\\Common\\Common.DIContainerCore\\Common.DIContainerCore.csproj",
       "projectName": "Common.DIContainerCore",
-      "projectPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.DIContainerCore\\Common.DIContainerCore.csproj",
+      "projectPath": "E:\\doan\\backend\\src\\Common\\Common.DIContainerCore\\Common.DIContainerCore.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.DIContainerCore\\obj\\",
+      "outputPath": "E:\\doan\\backend\\src\\Common\\Common.DIContainerCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6410,17 +6410,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.DataAccess.EFCore\\Common.DataAccess.EFCore.csproj": {
-              "projectPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.DataAccess.EFCore\\Common.DataAccess.EFCore.csproj"
+            "E:\\doan\\backend\\src\\Common\\Common.DataAccess.EFCore\\Common.DataAccess.EFCore.csproj": {
+              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.DataAccess.EFCore\\Common.DataAccess.EFCore.csproj"
             },
-            "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
-              "projectPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
+            "E:\\doan\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
+              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
             },
-            "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
-              "projectPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
+            "E:\\doan\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
+              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
             },
-            "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Services\\Common.Services.csproj": {
-              "projectPath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Services\\Common.Services.csproj"
+            "E:\\doan\\backend\\src\\Common\\Common.Services\\Common.Services.csproj": {
+              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Services\\Common.Services.csproj"
             }
           }
         }

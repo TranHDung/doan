@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DKPzWhIvwIqruOko8J9fnHIxTUbZzgAPa3ME102Jbl5nD57umjh0HMAzd5TuYB9b/h4cX5+gh/mlRN2uQRJDfw==",
+  "dgSpecHash": "egkhOkYixjmMZmszH3gGkomRJgealDZ6JsghFNfb9d8BH19XucIQKfVd6y/+R2DKkhdwrFinxLPZCnBxCcvyxA==",
   "success": true,
-  "projectFilePath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.IdentityManagementCore\\Common.IdentityManagementCore.csproj",
+  "projectFilePath": "E:\\doan\\backend\\src\\Common\\Common.IdentityManagementCore\\Common.IdentityManagementCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

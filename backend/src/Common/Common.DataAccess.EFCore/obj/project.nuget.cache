@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HhTMLgTlz4tU7tYuWDQ369XKVbawqf4UhFjXq2R6ClAAIKBn6La15jNBzTbSem18DmN0xC1kWAY0FtKD6NKqQw==",
+  "dgSpecHash": "02GUg/p089VG35r/8dkBd8pbnub81EeWFqjZ+BOd+BNCTwKd1XgvAQS5kvaMJ6V04SSibPZX+ttPYmChma3ZQw==",
   "success": true,
-  "projectFilePath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.DataAccess.EFCore\\Common.DataAccess.EFCore.csproj",
+  "projectFilePath": "E:\\doan\\backend\\src\\Common\\Common.DataAccess.EFCore\\Common.DataAccess.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",

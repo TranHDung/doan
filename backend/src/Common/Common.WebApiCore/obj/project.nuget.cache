@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BcwJ5rGnnRjem2cDUxMlfpVL33l5bPwDAESMXdfkAVllsl/B5KzQGCgbfFHBR5i9Q+Dlj4Y/J4MrEfXWxzmGNA==",
+  "dgSpecHash": "CZEUIsCjqniSgrMKiBYAhvHUPoEfkTUlJlWTtt0nfEaofrpUOr4BGm3OYIavzwoIJ17y9c4Ox33TEljRv6bj4A==",
   "success": true,
-  "projectFilePath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.WebApiCore\\Common.WebApiCore.csproj",
+  "projectFilePath": "E:\\doan\\backend\\src\\Common\\Common.WebApiCore\\Common.WebApiCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\hangfire.aspnetcore\\1.7.11\\hangfire.aspnetcore.1.7.11.nupkg.sha512",
