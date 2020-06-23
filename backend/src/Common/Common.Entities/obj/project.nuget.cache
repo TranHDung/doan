@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+EkqJdI/DLZTEDgf0OoJ1gmOFAYTOvRixvG9Im0DgiCouCQXxyQqYC7JlgI5I0GsMlPYbnQXrI21428r56pkxQ==",
+  "success": true,
+  "projectFilePath": "E:\\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
