@@ -12,3 +12,17 @@ E:\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\backend\src\Common\Common.Se
 E:\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.csproj.CopyComplete
 E:\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.dll
 E:\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.pdb
+E:\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.Services.Infrastructure.deps.json
+E:\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.Services.Infrastructure.dll
+E:\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.Services.Infrastructure.pdb
+E:\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.DTO.dll
+E:\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.Entities.dll
+E:\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.DTO.pdb
+E:\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.Entities.pdb
+E:\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.csprojAssemblyReference.cache
+E:\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.AssemblyInfoInputs.cache
+E:\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.AssemblyInfo.cs
+E:\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.csproj.CoreCompileInputs.cache
+E:\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.csproj.CopyComplete
+E:\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.dll
+E:\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.pdb

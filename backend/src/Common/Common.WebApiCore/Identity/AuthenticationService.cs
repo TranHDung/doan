@@ -5,6 +5,7 @@
 */
 
 using Common.DTO;
+using Common.Entities;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Threading.Tasks;
@@ -23,10 +24,10 @@ namespace Common.WebApiCore.Identity
             this.jwtManager = jwtManager;
         }
 
-        public async Task<AuthResult<Token>> Login(LoginDTO loginDto)
+        public async Task<User> Login(LoginDTO loginDto)
         {
             if (loginDto == null || string.IsNullOrEmpty(loginDto.Email) || string.IsNullOrEmpty(loginDto.Password))
-                return AuthResult<Token>.UnvalidatedResult;
+                return null;
 
             var user = await userManager.FindByEmailAsync(loginDto.Email);
 
@@ -34,12 +35,10 @@ namespace Common.WebApiCore.Identity
             {
                 if (await userManager.CheckPasswordAsync(user, loginDto.Password))
                 {
-                    var token = jwtManager.GenerateToken(user);
-                    return AuthResult<Token>.TokenResult(token);
+                    return user;
                 }
             }
-
-            return AuthResult<Token>.UnauthorizedResult;
+            return null;
         }
 
         public async Task<AuthResult<Token>> ChangePassword(ChangePasswordDTO changePasswordDto, int currentUserId)

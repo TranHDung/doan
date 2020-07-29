@@ -5,6 +5,7 @@
 */
 
 using Common.DTO;
+using Common.Services.Infrastructure;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -15,10 +16,12 @@ namespace Common.WebApiCore.Controllers
     public class AuthController : BaseApiController
     {
         protected readonly IAuthenticationService authService;
+        protected readonly IUserService _userService;
 
-        public AuthController(IAuthenticationService authService)
+        public AuthController(IAuthenticationService authService, IUserService userService)
         {
             this.authService = authService;
+            _userService = userService;
         }
 
         [HttpPost]
@@ -27,17 +30,7 @@ namespace Common.WebApiCore.Controllers
         public async Task<IActionResult> Login(LoginDTO loginDto)
         {
             var result = await authService.Login(loginDto);
-
-            if (result.Succeeded)
-            {
-                return Ok(new { token = result.Data });
-            }
-            if (result.IsModelValid)
-            {
-                return Unauthorized();
-            }
-
-            return BadRequest();
+            return Ok(result);
         }
 
         [HttpPost]

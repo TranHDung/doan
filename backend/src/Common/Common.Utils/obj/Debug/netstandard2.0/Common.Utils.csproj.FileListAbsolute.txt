@@ -10,3 +10,15 @@ E:\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\backend\src\Common\Common.Ut
 E:\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csproj.CopyComplete
 E:\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.dll
 E:\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.pdb
+E:\doan\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Utils.deps.json
+E:\doan\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Utils.dll
+E:\doan\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Utils.pdb
+E:\doan\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Entities.dll
+E:\doan\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Entities.pdb
+E:\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csprojAssemblyReference.cache
+E:\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.AssemblyInfoInputs.cache
+E:\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.AssemblyInfo.cs
+E:\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csproj.CoreCompileInputs.cache
+E:\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csproj.CopyComplete
+E:\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.dll
+E:\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.pdb
