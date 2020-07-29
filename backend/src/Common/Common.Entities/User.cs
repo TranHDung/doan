@@ -24,7 +24,7 @@ namespace Common.Entities
         public string AddressZipCode { get; set; }
         public double? AddressLat { get; set; }
         public double? AddressLng { get; set; }
-        public string role { get; set; }
+        public string Role { get; set; }
 
         public virtual UserPhoto Photo { get; set; }
         public virtual Settings Settings { get; set; }
