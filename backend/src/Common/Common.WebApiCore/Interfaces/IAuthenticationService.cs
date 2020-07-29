@@ -13,7 +13,7 @@ namespace Common.WebApiCore
 {
     public interface IAuthenticationService
     {
-        Task<User> Login(LoginDTO loginDto);
+        Task<UserDTO> Login(LoginDTO loginDto);
         Task<AuthResult<Token>> ChangePassword(ChangePasswordDTO changePasswordDto, int currentUserId);
         Task<AuthResult<Token>> SignUp(SignUpDTO signUpDto);
         Task<AuthResult<string>> RequestPassword(RequestPasswordDTO requestPasswordDto);

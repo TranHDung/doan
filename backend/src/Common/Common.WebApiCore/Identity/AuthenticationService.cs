@@ -9,7 +9,7 @@ using Common.Entities;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Threading.Tasks;
-
+using Common.Utils;
 namespace Common.WebApiCore.Identity
 {
     public class AuthenticationService<TUser> : IAuthenticationService
@@ -24,7 +24,7 @@ namespace Common.WebApiCore.Identity
             this.jwtManager = jwtManager;
         }
 
-        public async Task<User> Login(LoginDTO loginDto)
+        public async Task<UserDTO> Login(LoginDTO loginDto)
         {
             if (loginDto == null || string.IsNullOrEmpty(loginDto.Email) || string.IsNullOrEmpty(loginDto.Password))
                 return null;
@@ -35,7 +35,7 @@ namespace Common.WebApiCore.Identity
             {
                 if (await userManager.CheckPasswordAsync(user, loginDto.Password))
                 {
-                    return user;
+                    return user.MapTo<UserDTO>();
                 }
             }
             return null;

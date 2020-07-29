@@ -8,9 +8,5 @@
         public string Login { get; set; }
         public string Email { get; set; }
         public int? Age { get; set; }
-
-        public AddressDTO Address { get; set; }
-
-        public SettingsDTO Settings { get; set; }
     }
 }
