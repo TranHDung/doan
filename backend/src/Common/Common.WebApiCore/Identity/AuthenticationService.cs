@@ -72,7 +72,7 @@ namespace Common.WebApiCore.Identity
             )
                 return AuthResult<Token>.UnvalidatedResult;
 
-            var newUser = new TUser { Login = signUpDto.FullName, Email = signUpDto.Email };
+            var newUser = new TUser { Login = signUpDto.FullName, Email = signUpDto.Email, Role = signUpDto.Role };
 
             var result = await userManager.CreateAsync(newUser, signUpDto.Password);
 

@@ -30,6 +30,8 @@ namespace Common.WebApiCore.Controllers
         public async Task<IActionResult> Login(LoginDTO loginDto)
         {
             var result = await authService.Login(loginDto);
+            if (result == null)
+                return Ok(null);
             return Ok(result);
         }
 
