@@ -26,3 +26,17 @@ E:\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2
 E:\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.csproj.CopyComplete
 E:\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.dll
 E:\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.pdb
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.Services.Infrastructure.deps.json
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.Services.Infrastructure.dll
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.Services.Infrastructure.pdb
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.DTO.dll
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.Entities.dll
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.DTO.pdb
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\bin\Debug\netstandard2.0\Common.Entities.pdb
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.csprojAssemblyReference.cache
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.AssemblyInfo.cs
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.csproj.CopyComplete
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.dll
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Services.Infrastructure\obj\Debug\netstandard2.0\Common.Services.Infrastructure.pdb

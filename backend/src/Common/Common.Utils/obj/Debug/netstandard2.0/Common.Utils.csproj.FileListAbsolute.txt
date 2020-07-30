@@ -22,3 +22,15 @@ E:\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.cs
 E:\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csproj.CopyComplete
 E:\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.dll
 E:\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.pdb
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Utils.deps.json
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Utils.dll
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Utils.pdb
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Entities.dll
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Entities.pdb
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csprojAssemblyReference.cache
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.AssemblyInfoInputs.cache
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.AssemblyInfo.cs
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csproj.CoreCompileInputs.cache
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csproj.CopyComplete
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.dll
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.pdb
