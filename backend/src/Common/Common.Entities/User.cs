@@ -29,7 +29,11 @@ namespace Common.Entities
         public virtual UserPhoto Photo { get; set; }
         public virtual Settings Settings { get; set; }
 
+
         public ICollection<Respond> Responds { get; set; }
+        public ICollection<Question> Questions { get; set; }
+        public ICollection<GameShow> GameShows { get; set; }
+        public ICollection<UserGameShow> UserGameShows { get; set; }
         public virtual ICollection<UserRole> UserRoles { get; set; }
         public virtual ICollection<UserClaim> Claims { get; set; }
     }

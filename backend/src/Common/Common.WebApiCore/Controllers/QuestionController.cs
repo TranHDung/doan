@@ -6,6 +6,7 @@ using Common.Entities;
 using Microsoft.EntityFrameworkCore;
 using Common.DTO;
 using Common.Utils;
+using System.Linq;
 
 namespace Common.WebApiCore.Controllers
 {
@@ -26,6 +27,24 @@ namespace Common.WebApiCore.Controllers
         {
             var entity = await _questionRepos.GetAll().ToListAsync();
             return Ok(entity);
+        }
+
+        [HttpGet]
+        [Route("list/{userId:int}")]
+        [AllowAnonymous]
+        public async Task<IActionResult> List(int userId)
+        {
+            var entity = await _questionRepos.GetAll().Where(q => q.UserId == userId).ToListAsync();
+            return Ok(entity);
+        }
+
+        [HttpPost]
+        [Route("add-question-gameshow")]
+        [AllowAnonymous]
+        public async Task<IActionResult> AddQuestionGameshow(QuestionGameShow entity)
+        {
+            await _questionRepos.AddQuestionGameShow(entity);
+            return Ok();
         }
 
         [HttpPost]

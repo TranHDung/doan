@@ -13,5 +13,6 @@ namespace Common.DTO
         public string AnswerD { get; set; }
         public int RightAnswer { get; set; }
         public int? GameShowId { get; set; }
+        public int UserId { get; set; }
     }
 }

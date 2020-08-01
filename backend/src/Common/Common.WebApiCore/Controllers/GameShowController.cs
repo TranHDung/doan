@@ -6,6 +6,7 @@ using Common.Entities;
 using Microsoft.EntityFrameworkCore;
 using Common.Utils;
 using Common.DTO;
+using System.Linq;
 
 namespace Common.WebApiCore.Controllers
 {
@@ -28,6 +29,35 @@ namespace Common.WebApiCore.Controllers
             return Ok(entity);
         }
 
+        [HttpGet]
+        [Route("open")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Open()
+        {
+            var entity = await _gameShowRepos.GetAll().Where(g => g.IsOpen).ToListAsync();
+            return Ok(entity);
+        }
+
+        [HttpGet]
+        [Route("close/{gameShowId:int}")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Close(int gameShowId)
+        {
+            var entity = await _gameShowRepos.FirstOrDefaultAsync(g => g.Id == gameShowId);
+            entity.IsOpen = false;
+            _gameShowRepos.Update(entity);
+            return Ok();
+        }
+
+        [HttpGet]
+        [Route("close/{get:int}")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Get(int gameShowId)
+        {
+            var entity = await _gameShowRepos.FirstOrDefaultAsync(g => g.Id == gameShowId);
+            return Ok(entity);
+        }
+
         [HttpPost]
         [Route("add")]
         [AllowAnonymous]
@@ -35,7 +65,7 @@ namespace Common.WebApiCore.Controllers
         {
 
             var entity = dto.MapTo<GameShow>();
-
+            entity.IsOpen = true;
             await _gameShowRepos.AddAsync(entity);
             return Ok();
         }
@@ -63,6 +93,15 @@ namespace Common.WebApiCore.Controllers
             }
 
             _gameShowRepos.Remove(id);
+            return Ok();
+        }
+
+        [HttpPost]
+        [Route("add-question-gameshow")]
+        [AllowAnonymous]
+        public async Task<IActionResult> AddUserGameshow(UserGameShow entity)
+        {
+            await _gameShowRepos.AddUserGameShow(entity);
             return Ok();
         }
     }

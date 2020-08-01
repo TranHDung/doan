@@ -30,8 +30,14 @@ namespace Common.DataAccess.EFCore.Migrations
                     b.Property<DateTime?>("CreateAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsOpen")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime?>("ModifiedAt")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("MyProperty")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("TimeEnd")
                         .HasColumnType("datetime2");
@@ -42,7 +48,12 @@ namespace Common.DataAccess.EFCore.Migrations
                     b.Property<DateTime>("TimeStart")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("GameShows");
                 });
@@ -81,11 +92,44 @@ namespace Common.DataAccess.EFCore.Migrations
                     b.Property<int>("RightAnswer")
                         .HasColumnType("int");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("GameShowId");
 
+                    b.HasIndex("UserId");
+
                     b.ToTable("Questions");
+                });
+
+            modelBuilder.Entity("Common.Entities.QuestionGameShow", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime?>("CreateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("GameshowId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("QuestionId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GameshowId");
+
+                    b.HasIndex("QuestionId");
+
+                    b.ToTable("QuestionGameShows");
                 });
 
             modelBuilder.Entity("Common.Entities.Respond", b =>
@@ -233,6 +277,37 @@ namespace Common.DataAccess.EFCore.Migrations
                     b.ToTable("UserClaims");
                 });
 
+            modelBuilder.Entity("Common.Entities.UserGameShow", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime?>("CreateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("GameshowId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsOnline")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GameshowId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserGameShows");
+                });
+
             modelBuilder.Entity("Common.Entities.UserPhoto", b =>
                 {
                     b.Property<int>("Id")
@@ -262,11 +337,41 @@ namespace Common.DataAccess.EFCore.Migrations
                     b.ToTable("UserRoles");
                 });
 
+            modelBuilder.Entity("Common.Entities.GameShow", b =>
+                {
+                    b.HasOne("Common.Entities.User", null)
+                        .WithMany("GameShows")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Common.Entities.Question", b =>
                 {
                     b.HasOne("Common.Entities.GameShow", "GameShow")
                         .WithMany("Questions")
                         .HasForeignKey("GameShowId");
+
+                    b.HasOne("Common.Entities.User", "User")
+                        .WithMany("Questions")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Common.Entities.QuestionGameShow", b =>
+                {
+                    b.HasOne("Common.Entities.GameShow", "GameShow")
+                        .WithMany("QuestionGameShows")
+                        .HasForeignKey("GameshowId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Common.Entities.Question", "Question")
+                        .WithMany("QuestionGameShows")
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Common.Entities.Respond", b =>
@@ -297,6 +402,21 @@ namespace Common.DataAccess.EFCore.Migrations
                 {
                     b.HasOne("Common.Entities.User", null)
                         .WithMany("Claims")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Common.Entities.UserGameShow", b =>
+                {
+                    b.HasOne("Common.Entities.GameShow", "GameShow")
+                        .WithMany("UserGameShows")
+                        .HasForeignKey("GameshowId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Common.Entities.User", "User")
+                        .WithMany("UserGameShows")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
