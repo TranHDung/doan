@@ -3943,19 +3943,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\thanh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\doan\\backend\\src\\Common\\Common.Services\\Common.Services.csproj",
+      "projectUniqueName": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Services\\Common.Services.csproj",
       "projectName": "Common.Services",
-      "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Services\\Common.Services.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\doan\\backend\\src\\Common\\Common.Services\\obj\\",
+      "projectPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Services\\Common.Services.csproj",
+      "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3968,11 +3968,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\doan\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
-              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
+            "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
             },
-            "E:\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {
-              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj"
+            "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {
+              "projectPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj"
             }
           }
         }
@@ -4011,7 +4011,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   },

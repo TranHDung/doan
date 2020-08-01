@@ -16,3 +16,12 @@ E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entit
 E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.csproj.CoreCompileInputs.cache
 E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.dll
 E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.pdb
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.deps.json
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.dll
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.pdb
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.csprojAssemblyReference.cache
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.AssemblyInfoInputs.cache
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.AssemblyInfo.cs
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.csproj.CoreCompileInputs.cache
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.dll
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.pdb

@@ -16,3 +16,12 @@ E:\doan\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.Assemb
 E:\doan\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.csproj.CoreCompileInputs.cache
 E:\doan\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.dll
 E:\doan\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.pdb
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.DTO\bin\Debug\netstandard2.0\Common.DTO.deps.json
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.DTO\bin\Debug\netstandard2.0\Common.DTO.dll
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.DTO\bin\Debug\netstandard2.0\Common.DTO.pdb
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.csprojAssemblyReference.cache
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.AssemblyInfoInputs.cache
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.AssemblyInfo.cs
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.csproj.CoreCompileInputs.cache
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.dll
+C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.pdb

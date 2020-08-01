@@ -1056,19 +1056,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\thanh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj",
+      "projectUniqueName": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj",
       "projectName": "Common.Utils",
-      "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\doan\\backend\\src\\Common\\Common.Utils\\obj\\",
+      "projectPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj",
+      "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Utils\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1081,8 +1081,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\doan\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
-              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
+            "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
+              "projectPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
             }
           }
         }
@@ -1117,7 +1117,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
