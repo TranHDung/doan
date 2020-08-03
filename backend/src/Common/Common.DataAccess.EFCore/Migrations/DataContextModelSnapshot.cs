@@ -36,7 +36,7 @@ namespace Common.DataAccess.EFCore.Migrations
                     b.Property<DateTime?>("ModifiedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("MyProperty")
+                    b.Property<int>("Name")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("TimeEnd")
@@ -48,7 +48,7 @@ namespace Common.DataAccess.EFCore.Migrations
                     b.Property<DateTime>("TimeStart")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("UserId")
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -83,21 +83,16 @@ namespace Common.DataAccess.EFCore.Migrations
                     b.Property<DateTime?>("CreateAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("GameShowId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime?>("ModifiedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("RightAnswer")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserId")
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("GameShowId");
 
                     b.HasIndex("UserId");
 
@@ -341,22 +336,14 @@ namespace Common.DataAccess.EFCore.Migrations
                 {
                     b.HasOne("Common.Entities.User", null)
                         .WithMany("GameShows")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("Common.Entities.Question", b =>
                 {
-                    b.HasOne("Common.Entities.GameShow", "GameShow")
-                        .WithMany("Questions")
-                        .HasForeignKey("GameShowId");
-
                     b.HasOne("Common.Entities.User", "User")
                         .WithMany("Questions")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("Common.Entities.QuestionGameShow", b =>

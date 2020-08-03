@@ -13,10 +13,8 @@ namespace Common.Entities
         public string AnswerC { get; set; }
         public string AnswerD { get; set; }
         public int RightAnswer { get; set; }
-        public int? GameShowId { get; set; }
-        public GameShow GameShow { get; set; }
         public ICollection<QuestionGameShow> QuestionGameShows { get; set; }
-        public int UserId { get; set; }
+        public int? UserId { get; set; }
         public User User { get; set; }
     }
 }

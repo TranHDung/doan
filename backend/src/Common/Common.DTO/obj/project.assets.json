@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thanh\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj",
+      "projectUniqueName": "E:\\doan\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj",
       "projectName": "Common.DTO",
-      "projectPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj",
-      "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.DTO\\obj\\",
+      "projectPath": "E:\\doan\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "E:\\doan\\backend\\src\\Common\\Common.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -233,7 +233,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

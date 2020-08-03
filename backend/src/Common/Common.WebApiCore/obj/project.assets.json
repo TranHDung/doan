@@ -8952,19 +8952,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thanh\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.WebApiCore\\Common.WebApiCore.csproj",
+      "projectUniqueName": "E:\\doan\\backend\\src\\Common\\Common.WebApiCore\\Common.WebApiCore.csproj",
       "projectName": "Common.WebApiCore",
-      "projectPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.WebApiCore\\Common.WebApiCore.csproj",
-      "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.WebApiCore\\obj\\",
+      "projectPath": "E:\\doan\\backend\\src\\Common\\Common.WebApiCore\\Common.WebApiCore.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "E:\\doan\\backend\\src\\Common\\Common.WebApiCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8977,20 +8977,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.DIContainerCore\\Common.DIContainerCore.csproj": {
-              "projectPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.DIContainerCore\\Common.DIContainerCore.csproj"
+            "E:\\doan\\backend\\src\\Common\\Common.DIContainerCore\\Common.DIContainerCore.csproj": {
+              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.DIContainerCore\\Common.DIContainerCore.csproj"
             },
-            "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj": {
-              "projectPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj"
+            "E:\\doan\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj": {
+              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj"
             },
-            "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.IdentityManagementCore\\Common.IdentityManagementCore.csproj": {
-              "projectPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.IdentityManagementCore\\Common.IdentityManagementCore.csproj"
+            "E:\\doan\\backend\\src\\Common\\Common.IdentityManagementCore\\Common.IdentityManagementCore.csproj": {
+              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.IdentityManagementCore\\Common.IdentityManagementCore.csproj"
             },
-            "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
+            "E:\\doan\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
+              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
             },
-            "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {
-              "projectPath": "C:\\Users\\thanh\\Desktop\\LTwin\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj"
+            "E:\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {
+              "projectPath": "E:\\doan\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj"
             }
           }
         }
@@ -9075,7 +9075,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   },
