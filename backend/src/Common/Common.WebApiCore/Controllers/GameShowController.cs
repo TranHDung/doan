@@ -30,12 +30,16 @@ namespace Common.WebApiCore.Controllers
         }
 
         [HttpGet]
-        [Route("open")]
+        [Route("open/{name:string}")]
         [AllowAnonymous]
-        public async Task<IActionResult> Open()
+        public async Task<IActionResult> Open(string name)
         {
-            var entity = await _gameShowRepos.GetAll().Where(g => g.IsOpen).ToListAsync();
-            return Ok(entity);
+            var entity = new GameShow();
+            entity.IsOpen = true;
+            entity.IsOnline = true;
+            entity.Name = name;
+            var idGameShow = await _gameShowRepos.AddAndGetIdAsyn(entity);
+            return Ok(idGameShow);
         }
 
         [HttpGet]
@@ -44,30 +48,20 @@ namespace Common.WebApiCore.Controllers
         public async Task<IActionResult> Close(int gameShowId)
         {
             var entity = await _gameShowRepos.FirstOrDefaultAsync(g => g.Id == gameShowId);
-            entity.IsOpen = false;
+            entity.IsOnline = false;
             _gameShowRepos.Update(entity);
-            return Ok();
-        }
-
-        [HttpGet]
-        [Route("close/{get:int}")]
-        [AllowAnonymous]
-        public async Task<IActionResult> Get(int gameShowId)
-        {
-            var entity = await _gameShowRepos.FirstOrDefaultAsync(g => g.Id == gameShowId);
-            return Ok(entity);
+            return Ok("Ok");
         }
 
         [HttpPost]
-        [Route("add")]
+        [Route("start/{gameShowId:int}")]
         [AllowAnonymous]
-        public async Task<IActionResult> Add(GameShowDTO dto)
+        public async Task<IActionResult> Start(int gameShowId)
         {
-
-            var entity = dto.MapTo<GameShow>();
-            entity.IsOpen = true;
-            await _gameShowRepos.AddAsync(entity);
-            return Ok();
+            var entity = await _gameShowRepos.FirstOrDefaultAsync(g => g.Id == gameShowId);
+            entity.IsOpen = false;
+            _gameShowRepos.Update(entity);
+            return Ok("Ok");
         }
 
         [HttpPost]
@@ -97,12 +91,30 @@ namespace Common.WebApiCore.Controllers
         }
 
         [HttpPost]
-        [Route("add-question-gameshow")]
+        [Route("add-question")]
         [AllowAnonymous]
-        public async Task<IActionResult> AddUserGameshow(UserGameShow entity)
+        public async Task<IActionResult> AddQuestionGameShow(QuestionGameShow entity)
+        {
+            await _gameShowRepos.AddQuestionGameShow(entity);
+            return Ok("Ok");
+        }
+
+        [HttpPost]
+        [Route("join")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Join(UserGameShow entity)
         {
             await _gameShowRepos.AddUserGameShow(entity);
-            return Ok();
+            return Ok("Ok");
+        }
+
+        [HttpGet]
+        [Route("joined/{gameShowId:int}")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Joined(int gameShowId)
+        {
+            var users = _gameShowRepos.GetUsersJoinGameShow(gameShowId);
+            return Ok(users);
         }
     }
 }

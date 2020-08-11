@@ -6,6 +6,7 @@ namespace Common.DTO
 {
     public class QuestionDTO
     {
+        public int Id { get; set; }
         public string Content { get; set; }
         public string AnswerA { get; set; }
         public string AnswerB { get; set; }
