@@ -29,8 +29,7 @@ namespace Common.WebApiCore.Controllers
             return Ok(entity);
         }
 
-        [HttpGet]
-        [Route("open/{name:string}")]
+        [HttpGet("open/{name}")]
         [AllowAnonymous]
         public async Task<IActionResult> Open(string name)
         {
@@ -42,8 +41,7 @@ namespace Common.WebApiCore.Controllers
             return Ok(idGameShow);
         }
 
-        [HttpGet]
-        [Route("close/{gameShowId:int}")]
+        [HttpGet("close/{gameShowId}")]
         [AllowAnonymous]
         public async Task<IActionResult> Close(int gameShowId)
         {
@@ -53,8 +51,7 @@ namespace Common.WebApiCore.Controllers
             return Ok("Ok");
         }
 
-        [HttpPost]
-        [Route("start/{gameShowId:int}")]
+        [HttpGet("start/{gameShowId}")]
         [AllowAnonymous]
         public async Task<IActionResult> Start(int gameShowId)
         {
@@ -76,8 +73,7 @@ namespace Common.WebApiCore.Controllers
             return Ok();
         }
 
-        [HttpGet]
-        [Route("remove/{id:int}")]
+        [HttpGet("remove/{id}")]
         [AllowAnonymous]
         public IActionResult Delete(int id)
         {
@@ -108,8 +104,7 @@ namespace Common.WebApiCore.Controllers
             return Ok("Ok");
         }
 
-        [HttpGet]
-        [Route("joined/{gameShowId:int}")]
+        [HttpGet("joined/{gameShowId}")]
         [AllowAnonymous]
         public async Task<IActionResult> Joined(int gameShowId)
         {
