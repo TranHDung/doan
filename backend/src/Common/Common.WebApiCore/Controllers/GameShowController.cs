@@ -108,7 +108,7 @@ namespace Common.WebApiCore.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Joined(int gameShowId)
         {
-            var users = _gameShowRepos.GetUsersJoinGameShow(gameShowId);
+            var users = await _gameShowRepos.GetUsersJoinGameShow(gameShowId);
             return Ok(users);
         }
     }
