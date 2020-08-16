@@ -23,7 +23,6 @@ namespace Common.WebApiCore.Setup
             services.AddSingleton<JwtManager>();
 
             ContainerExtension.Initialize(services, connectionString);
-
             services.AddTransient<IAuthenticationService, AuthenticationService<User>>();
             services.AddTransient<IRoleService, RoleService<User, Role>>();
         }

@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Common.DTO;
 using Common.Utils;
 using System.Linq;
+using Common.Services.Infrastructure;
+using Common.DataAccess.EFCore.Repositories;
 
 namespace Common.WebApiCore.Controllers
 {
@@ -27,6 +29,14 @@ namespace Common.WebApiCore.Controllers
         {
             var entity = await _questionRepos.GetAll().ToListAsync();
             return Ok(entity);
+        }
+
+        [HttpGet("get/{gameShowId}")]
+        [AllowAnonymous]
+        public async Task<IActionResult> GetQuestionNewest(int gameShowId)
+        {
+            var dto = _questionRepos.GetQuestionNewest(gameShowId).MapTo<QuestionDTO>(); ;
+            return Ok(dto);
         }
 
         [HttpGet]
@@ -83,6 +93,15 @@ namespace Common.WebApiCore.Controllers
 
             _questionRepos.Remove(id);
             return Ok();
+        }
+
+        [HttpPost]
+        [Route("answer")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Answer(UserGameShow entity)
+        {
+            await _questionRepos.AddOrUpdateAnswer(entity);
+            return Ok("Ok");
         }
     }
 }

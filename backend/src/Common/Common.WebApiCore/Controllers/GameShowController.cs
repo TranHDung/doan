@@ -47,6 +47,7 @@ namespace Common.WebApiCore.Controllers
         {
             var entity = await _gameShowRepos.FirstOrDefaultAsync(g => g.Id == gameShowId);
             entity.IsOnline = false;
+            entity.IsOpen = false;
             _gameShowRepos.Update(entity);
             return Ok("Ok");
         }
@@ -110,6 +111,20 @@ namespace Common.WebApiCore.Controllers
         {
             var users = await _gameShowRepos.GetUsersJoinGameShow(gameShowId);
             return Ok(users);
+        }
+
+        [HttpGet("find")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Find()
+        {
+            var entities = await _gameShowRepos.GetAll()
+                                                .Where(g => g.IsOpen)
+                                                .Select(g => new MiniGameShowDTO 
+                                                { 
+                                                    Id = g.Id,
+                                                    Name = g.Name
+                                                }).ToListAsync();
+            return Ok(entities);
         }
     }
 }

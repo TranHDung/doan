@@ -10,5 +10,7 @@ namespace Common.Services.Infrastructure.Repositories
     public interface IQuestionRepository : IRepository<Question>
     {
         Task AddQuestionGameShow(QuestionGameShow entity);
+        Task AddOrUpdateAnswer(UserGameShow entity);
+        Task<Question> GetQuestionNewest(int gameShowId);
     }
 }
