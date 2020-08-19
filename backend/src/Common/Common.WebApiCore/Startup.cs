@@ -84,14 +84,14 @@ namespace Common.WebApiCore
 
         public void Configure(IApplicationBuilder app, IHostEnvironment env, IDataBaseInitializer dataBaseInitializer)
         {
-            if (dataBaseInitializer != null)
-            {
-                dataBaseInitializer.Initialize();
-            }
-            else
-            {
-                // TODO: add logging
-            }
+            //if (dataBaseInitializer != null)
+            //{
+            //    dataBaseInitializer.Initialize();
+            //}
+            //else
+            //{
+            //    // TODO: add logging
+            //}
 
             if (!env.IsDevelopment())
             {

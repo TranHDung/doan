@@ -20,12 +20,16 @@ namespace Common.DataAccess.EFCore
         }
         public async Task AddUserGameShow(UserGameShow entity)
         {
+            entity.Created();
             await Context.UserGameShows.AddAsync(entity);
+            await SaveChangesAsync();
         }
 
         public async Task AddQuestionGameShow(QuestionGameShow entity)
         {
+            entity.Created();
             await Context.QuestionGameShows.AddAsync(entity);
+            await Context.SaveChangesAsync();
         }
         public async Task<int> AddAndGetIdAsyn(GameShow entity)
         {
@@ -49,6 +53,14 @@ namespace Common.DataAccess.EFCore
                                })
                                .ToListAsync();
             return users;
+        }
+
+        public async Task UpdateScore(UserGameShow data) 
+        {
+            var entity = await Context.UserGameShows.FirstOrDefaultAsync(u => u.UserId == data.UserId && u.GameshowId == data.GameshowId);
+            entity.Score = data.Score;
+            Context.UserGameShows.Update(entity);
+            await Context.SaveChangesAsync();
         }
     }
 }

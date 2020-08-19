@@ -13,5 +13,6 @@ namespace Common.Services.Infrastructure.Repositories
         Task<int> AddAndGetIdAsyn(GameShow entity);
         Task<List<UserJoinGameShowDTO>> GetUsersJoinGameShow(int gameShowId);
         Task AddQuestionGameShow(QuestionGameShow entity);
+        Task UpdateScore(UserGameShow data);
     }
 }

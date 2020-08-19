@@ -30,15 +30,15 @@ namespace Common.DataAccess.EFCore
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+            //string environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 
-            IConfigurationRoot configuration = new ConfigurationBuilder()
-                .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../Common.WebApiCore"))
-                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-                .AddJsonFile($"appsettings.{environment}.json", optional: true)
-                .Build();
-            var connectionString = configuration.GetConnectionString("localDb");
-            optionsBuilder.UseSqlServer(connectionString);
+            //IConfigurationRoot configuration = new ConfigurationBuilder()
+            //    .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../Common.WebApiCore"))
+            //    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+            //    .AddJsonFile($"appsettings.{environment}.json", optional: true)
+            //    .Build();
+            //var connectionString = configuration.GetConnectionString("localDb");
+            optionsBuilder.UseSqlServer("Data Source=112.78.2.30,1433;Initial Catalog=rap94446_doan;Integrated Security=False;Persist Security Info=False;User ID=rap94446_doan;Password=admin@123++aAbB");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

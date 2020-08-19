@@ -7,14 +7,6 @@ E:\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\backend\src\Common\Common.En
 E:\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.csproj.CoreCompileInputs.cache
 E:\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.dll
 E:\lottery-300f6934baf704a269d34a9a45f3cf7d82b573eb\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.pdb
-E:\doan\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.deps.json
-E:\doan\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.dll
-E:\doan\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.pdb
-E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.AssemblyInfoInputs.cache
-E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.AssemblyInfo.cs
-E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.csproj.CoreCompileInputs.cache
-E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.dll
-E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.pdb
 C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.deps.json
 C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.dll
 C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.pdb
@@ -24,4 +16,12 @@ C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\obj\Debug\n
 C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.csproj.CoreCompileInputs.cache
 C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.dll
 C:\Users\thanh\Desktop\LTwin\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.pdb
+E:\doan\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.deps.json
+E:\doan\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.dll
+E:\doan\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.pdb
 E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.csprojAssemblyReference.cache
+E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.AssemblyInfoInputs.cache
+E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.AssemblyInfo.cs
+E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.csproj.CoreCompileInputs.cache
+E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.dll
+E:\doan\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.pdb

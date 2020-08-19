@@ -39,7 +39,7 @@ namespace Common.DataAccess.EFCore
 
         public async Task<Question> GetQuestionNewest(int gameShowId)
         {
-            var question = Context.QuestionGameShows.Include(u => u.Question).Where(u => u.GameshowId == gameShowId).OrderByDescending(u => u.CreateAt).FirstOrDefault().Question;
+            var question = Context.QuestionGameShows.Include(u => u.Question).Where(u => u.GameshowId == gameShowId).OrderByDescending(u => u.CreateAt).FirstOrDefault()?.Question;
             return question;
         }
     }

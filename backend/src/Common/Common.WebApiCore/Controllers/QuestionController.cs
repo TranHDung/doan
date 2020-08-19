@@ -35,8 +35,10 @@ namespace Common.WebApiCore.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> GetQuestionNewest(int gameShowId)
         {
-            var dto = _questionRepos.GetQuestionNewest(gameShowId).MapTo<QuestionDTO>(); ;
-            return Ok(dto);
+            var dto = await _questionRepos.GetQuestionNewest(gameShowId);
+            if(dto == null)
+                return Ok("fail");
+            return Ok(dto.MapTo<QuestionDTO>());
         }
 
         [HttpGet]

@@ -105,12 +105,31 @@ namespace Common.WebApiCore.Controllers
             return Ok("Ok");
         }
 
+        [HttpPost]
+        [Route("update-score")]
+        [AllowAnonymous]
+        public async Task<IActionResult> UpdateScore(UserGameShow entity)
+        {
+            await _gameShowRepos.UpdateScore(entity);
+            return Ok("Ok");
+        }
+
         [HttpGet("joined/{gameShowId}")]
         [AllowAnonymous]
         public async Task<IActionResult> Joined(int gameShowId)
         {
             var users = await _gameShowRepos.GetUsersJoinGameShow(gameShowId);
             return Ok(users);
+        }
+
+        [HttpGet("is-online/{gameShowId}")]
+        [AllowAnonymous]
+        public async Task<IActionResult> IsOnline(int gameShowId)
+        {
+            var gameShow = await _gameShowRepos.FirstOrDefaultAsync(g => g.Id == gameShowId);
+            if(gameShow.IsOnline)
+                return Ok("Ok");
+            return Ok("Off");
         }
 
         [HttpGet("find")]
